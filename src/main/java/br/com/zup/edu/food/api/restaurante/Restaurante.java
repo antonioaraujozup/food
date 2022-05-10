@@ -22,6 +22,11 @@ public class Restaurante {
     private String email;
     private String site;
 
+    /*@Enumerated(EnumType.STRING)
+    private ClassificacaoRestaurante classificacao;
+
+    private boolean usaCupom;*/
+
     /**
      * @deprecated
      */
