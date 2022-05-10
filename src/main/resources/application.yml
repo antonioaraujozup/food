@@ -18,3 +18,4 @@ spring:
     url: jdbc:h2:~/food
     user: ${DATABASE_USER:root}
     password: ${DATABASE_PASSWD:root}
+    enabled: true
