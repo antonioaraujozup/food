@@ -19,3 +19,16 @@ spring:
     user: ${DATABASE_USER:root}
     password: ${DATABASE_PASSWD:root}
     enabled: true
+management:
+  health:
+    diskSpace:
+      enabled: false
+    ping:
+      enabled: false
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health, scheduledtasks
